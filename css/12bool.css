@@ -12,10 +12,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: white;
+    
    
     
 }
+
+/*div[class*="col"]{
+    flex: 0 0 auto;
+}*/
 
 /* column */
 
@@ -78,3 +82,11 @@
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
 }
+
+
+
+
+
+
+/*OFFESET*/
+
